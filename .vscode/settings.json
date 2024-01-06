@@ -2,7 +2,6 @@
     "cSpell.words": [
         "nestjs"
     ],
-    "editor.indentSize": 4,
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true,
+    "editor.indentSize": 2,
+    "editor.tabSize": 2,
 }
