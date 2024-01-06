@@ -1,4 +1,4 @@
-import { Question } from "src/question/dto/QuestionDto";
+import { Question } from "../question/dto/QuestionDto";
 
 export class Quiz {
   id: number;

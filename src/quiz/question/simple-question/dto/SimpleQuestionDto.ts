@@ -1,5 +1,6 @@
-import { Answer } from "src/question/answer/dto/AnswerDto";
-import { Question } from "src/question/dto/QuestionDto";
+import { Answer } from "../../answer/dto/AnswerDto";
+import { Question } from "../../dto/QuestionDto";
+
 
 export class SimpleQuestion extends Question {
   constructor(id: number, question: string, possible_answers: Answer[], correct_answer: Answer[]) {
