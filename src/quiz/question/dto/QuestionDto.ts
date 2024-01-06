@@ -1,4 +1,4 @@
-import { Answer } from "src/answer/dto/AnswerDto";
+import { Answer } from "../answer/dto/AnswerDto";
 
 export class Question {
   id: number;

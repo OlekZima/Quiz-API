@@ -1,4 +1,4 @@
-import { Answer } from "src/answer/dto/AnswerDto";
+import { Answer } from "src/question/answer/dto/AnswerDto";
 import { Question } from "src/question/dto/QuestionDto";
 
 export class SimpleQuestion extends Question {
