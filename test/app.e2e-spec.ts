@@ -21,4 +21,10 @@ describe('AppController (e2e)', () => {
       .expect(200)
       .expect('Hello World!');
   });
+
+  // it('/graphql', () => {
+  //   return request(app.getHttpServer())
+  //     .get('/graphql')
+  //     .expect(200)
+  // })
 });
