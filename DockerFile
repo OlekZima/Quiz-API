@@ -1,0 +1,11 @@
+# Official postgres image
+FROM postgres
+
+# username and password environment variables
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD password
+
+# expose port 5432
+EXPOSE 5432
+
+# CMD ["postgres", "-D", "/var/lib/postgresql/data"]
